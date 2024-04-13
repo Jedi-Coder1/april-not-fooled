@@ -1,0 +1,13 @@
+{
+   "icons": { "128": "assets/icon.png" },
+   "content_scripts": [{
+      "matches": ["https://www.youtube.com/watch"],
+      "js": ["didntfool.js"]
+  }],
+   "author": "Jedi-Coder1",
+   "description": "Adds text notifying of a video uploaded on april 1st",
+   "manifest_version": 3,
+   "name": "April Not Fooled",
+   "permissions": [],
+   "version": "1.0"
+}
